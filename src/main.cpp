@@ -42,7 +42,7 @@ void loop() {
     }
   }
 
-  bool debug = true; // CHange to false when ID configured or true to configure
+  bool debug = false; // CHange to false when ID configured or true to configure
   int number_set = 3;
   String cmd_set[3];
   cmd_set[0] = "AT+PARAMETER=7,3,4,5\r\n";
